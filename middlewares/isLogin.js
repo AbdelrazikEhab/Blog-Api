@@ -25,3 +25,6 @@ const isLogin = (req, res, next) => {
 };
 
 module.exports = isLogin;
+
+// postman token
+// pm.environment.set("TOKEN",`Bearer ${pm.response.json().data.token}`)
